@@ -2,6 +2,7 @@ package com.googlecode.googleplus;
 
 import java.net.UnknownHostException;
 
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.apache.http.conn.ConnectTimeoutException;
 import org.junit.After;
 import org.junit.FixMethodOrder;
@@ -14,7 +15,8 @@ import com.googlecode.googleplus.model.person.PeopleCollection;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ConfigurationTest {
 
-    @Test
+//    @Test
+//    @Ignore
     public void configurationTimeoutTest() throws Exception {
         GooglePlusConfiguration config = new GooglePlusConfiguration();
         config.setConnectTimeout(10);

@@ -23,6 +23,7 @@ public class Person {
     private String id;
     private String nickname;
     private String birthday;
+    private Integer circledByCount;
     private PersonImage image;
     private boolean hasApp;
     private List<String> languagesSpoken;
@@ -163,6 +164,14 @@ public class Person {
 
     public void setBirthday(String birthday) {
         this.birthday = birthday;
+    }
+
+    public Integer getCircledByCount() {
+        return circledByCount;
+    }
+
+    public void setCircledByCount(Integer circledByCount) {
+        this.circledByCount = circledByCount;
     }
 
     public PersonImage getImage() {

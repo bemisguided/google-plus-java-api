@@ -1,9 +1,12 @@
 package com.googlecode.googleplus.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public abstract class BaseFeed<T> {
     private String nextPageToken;
     private String kind;
