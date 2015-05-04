@@ -14,10 +14,6 @@
       <id>ukadu-releases</id>
       <url>https://artifacts.ukadu.com/nexus/content/groups/public/</url>
     </repository>
-    <snapshotRepository>
-      <id>ukadu-snapshots</id>
-      <url>https://artifacts.ukadu.com/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
   </distributionManagement>
 
   <licenses>
