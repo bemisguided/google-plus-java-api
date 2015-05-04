@@ -3,7 +3,7 @@
 
   <groupId>com.bemisguided.googleplus</groupId>
   <artifactId>google-plus-java-api</artifactId>
-  <version>1.1.2-SNAPSHOT</version>
+  <version>1.1.3-SNAPSHOT</version>
 
   <description>A Java client for the Google+ API</description>
   <name>Google+ Java API</name>
