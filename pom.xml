@@ -12,7 +12,7 @@
   <distributionManagement>
     <repository>
       <id>ukadu-releases</id>
-      <url>https://artifacts.ukadu.com/nexus/content/groups/public/</url>
+      <url>https://artifacts.ukadu.com/nexus/content/repositories/releases/</url>
     </repository>
   </distributionManagement>
 
